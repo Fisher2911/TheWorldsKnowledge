@@ -1,0 +1,21 @@
+.post-container {
+    border: 1px solid gray;
+    border-radius: 3px;
+    min-width: 600px;
+    max-width: 1000px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: var(--secondary);
+}
+
+.post-container:hover {
+    cursor: pointer;
+}
+
+.post-container:last-child {
+    margin-bottom: 30px;
+}
+
+.post-content {
+    overflow: hidden;
+}

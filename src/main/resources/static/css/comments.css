@@ -1,0 +1,57 @@
+.comment-section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    justify-content: left;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    font-size: 20px;
+    background-color: var(--secondary);
+}
+
+.comment {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    border-top-right-radius: 10px;
+}
+
+.reply {
+    margin-top: 0;
+    max-width: 700px;
+    background-color: var(--secondary);
+    border-top: 1px dashed var(--primary);
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.reply-2 {
+    margin-top: 0;
+    max-width: 700px;
+    background-color: var(--secondary);
+    border-top: 1px dashed var(--primary);
+    margin-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.reply-content {
+    font-size: 16px;
+}
+
+.post-title {
+    font-size: 64px;
+}
+
+.author {
+    text-align: left;
+    margin-left: 10px;
+}

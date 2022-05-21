@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/create-post.css" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <title>Create Question</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="title title-area-title">Title</h3>
+        <input id="post-title" placeholder="Title..." name="title-area" type="text" class="title-area input">
+        <h3 class="title">Description</h3>
+        <textarea id="post-content" placeholder="Description..." class="description input"></textarea>
+        <h3 class="resource-area-title title">Resources</h3>
+        <div id="resource-area" class="resource-area">
+            <button id="add-resource" class="add-resource button">Add Resource</button>
+        </div>
+        <button id="post-button" class="post-topic button">Post</button>
+    </div>
+</body>
+<script src="javascript/removable.js"></script>
+<script src="javascript/create-post.js"></script>
+<script src="javascript/navbar.js"></script>
+</html>

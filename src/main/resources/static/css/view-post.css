@@ -1,0 +1,42 @@
+body {
+    background-color: var(--text-color);
+}
+
+.container {
+    background-color: var(--primary);
+    max-width: 1000px;
+}
+
+.title {
+    color: var(--text-color);
+}
+
+.answer-content {
+    background-color: var(--primary);
+    font-size: 32px;
+    max-width: 1000px;
+    color: var(--text-color);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-section {
+    margin-top: 50px;
+    background-color: var(--secondary);
+    width: 200px;
+    height: 75px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.comment-section:hover {
+    cursor: pointer;
+}
